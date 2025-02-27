@@ -1,6 +1,6 @@
-# PythonFetchDms
+# Discord-Fetch-DMs
 
-PythonFetchDms is a Python script that allows you to scrape direct messages (DMs) from a specified user on Discord. The script logs into your Discord account using a token, fetches the DMs from the specified user, and saves the messages and attachments to your local machine.
+Discord-Fetch-DMs is a Python script that allows you to scrape direct messages (DMs) from a specified user on Discord. The script logs into your Discord account using a token, fetches the DMs from the specified user, and saves the messages and attachments to your local machine.
 
 ## Requirements
 
