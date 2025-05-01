@@ -1,5 +1,18 @@
+
+import subprocess
 import os
 import sys
+
+# Automatically install the packaged needed
+def managePackages():
+    packages_to_uninstall = ["discord","discord.py","py-cord","pycord","nextcord","discord.py-self","aiohttp"]
+    for package in packages_to_uninstall:
+        subprocess.run([sys.executable, "-m", "pip", "uninstall", package, "-y"], check=True)
+
+    subprocess.run([sys.executable, "-m", "pip", "install", "discord.py-self"], check=True)
+
+managePackages()
+
 from discord.ext import commands
 
 def getToken():

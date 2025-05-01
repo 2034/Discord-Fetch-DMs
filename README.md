@@ -10,11 +10,6 @@ Discord-Fetch-DMs is a Python script that allows you to scrape direct messages (
 ## Installation
 
 1. Clone the repository or download the script files.
-2. Install the required Python packages using `pip`:
-
-    ```sh
-    pip install -r requirements.txt
-    ```
 
 ## Usage
 
@@ -31,7 +26,6 @@ Discord-Fetch-DMs is a Python script that allows you to scrape direct messages (
 ## Files
 
 - [main.py](https://github.com/2034/Discord-Fetch-DMs/blob/main/main.py): The main script file.
-- `requirements.txt`: The file containing the required Python packages.
 
 ## Example
 
